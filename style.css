@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+.first-txt {
+    margin-top: 5%;
+    padding: 1%;
+    background-color: rgb(255, 255, 255);
+    border: 10px solid red;
+    border-radius: 25px;
+    color: rgb(124, 0, 124);
+    text-shadow: 1px 5px 5px black;
+    width: 40%;
+    text-align: center;
+    line-height: 45px;
+    margin: auto;
+    font-size: 1rem;
+    box-shadow: 7px 20px 1px rgb(83, 22, 83);
+}
+
+hr {
+    margin-top: 15px;
+}
+
+/* ------------------------------------------------- */
+h2 {
+    font-size: 1.6rem;
+}
+
+.second {
+    border: 10px solid green;
+    height: 70vh;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    text-align: center;
+    font-size: 1rem;
+    box-shadow: 7px 20px 1px rgb(83, 22, 83);
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    padding: 1%;
+    border: 10px solid red;
+    width: 30%;
+    height: 25vh;
+    color: rgb(87, 14, 87);
+    text-shadow: 1px 5px 5px black;
+}
+
+.second .flex1 {
+    margin-top: 10%;
+}
+
+h5 {
+    margin: 10px 0;
+}
+
+input {
+    text-align: center;
+}
+
+.btn {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 3px 10px;
+    background-color: crimson;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(255, 0, 51);
+}
+
+.box-2 {
+    margin-right: 60px;
+}
+
+/* ----------------------------------------------------- */
+.menu {
+    background-color: green;
+    border: 10px solid purple;
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.slide p {
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slid1 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.slid2 {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.slide {
+    background-color: rgb(241, 206, 107);
+    border: 2px solid rgb(255, 187, 0);
+}
+
+.fl {
+    margin-top: 25px;
+}
+
+.slide h4 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 30px;
+    right:250px;
+
+}
+
+.fix {
+    border: 10px solid red;
+    background-color: greenyellow;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+    font-style: italic;
+    color: rgb(161, 7, 7);
+    box-shadow: 7px 20px 1px rgb(83, 22, 83);
+}
+
+.fix h1 {
+    margin-left: 10px;
+}
